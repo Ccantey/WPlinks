@@ -2,6 +2,7 @@ jQuery(document).ready(function() {
 
 //verbose! condense to for loop rather than writing 3 if/elses
 
+//jQuery.get the latest 3 blogs (?number=3 )
 $.get( "https://public-api.wordpress.com/rest/v1.1/sites/<YOUR BLOG>.wordpress.com/posts/?number=3&pretty=0", function( data ) {
             //First title, first image, first link
             $( "#wp1" ).html( data.posts[0].title ).attr('href',data.posts[0].URL).attr('target', '_blank');
