@@ -9,4 +9,4 @@ Adding wordpress blog titles, images, and links to your website, using **your cs
 And here's how it looks 
 -----------------------
 
-[Grow Rapids Website](http://gis.wirapids.org/GrowRapidsSite/index.html)
+[Grow Rapids Website](http://growrapids.com/)
